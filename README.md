@@ -65,7 +65,7 @@ A modern, interactive 3D periodic table of elements built with Next.js, Three.js
 1. Clone the repository
    ```bash
    git clone https://github.com/Saganaki22/PeriodicTable.git
-   cd periodic-table
+   cd PeriodicTable
    ```
 
 2. Install dependencies
