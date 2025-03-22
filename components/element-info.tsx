@@ -1,10 +1,13 @@
 "use client"
 
-import { ChevronLeft, ChevronRight, ExternalLink } from "lucide-react"
+import type React from "react"
+
+import { ChevronLeft, ChevronRight, ExternalLink, X, ZoomIn, ZoomOut } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import type { Element } from "@/types/element"
 import { getHazardData } from "@/lib/element-hazards"
+import { useState, useRef, useEffect } from "react"
 
 interface ElementInfoProps {
   element: Element
@@ -15,6 +18,89 @@ interface ElementInfoProps {
 }
 
 export function ElementInfo({ element, isOpen, onToggle, onBackClick, onCategoryClick }: ElementInfoProps) {
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+  const [scale, setScale] = useState(1)
+  const [position, setPosition] = useState({ x: 0, y: 0 })
+  const [isDragging, setIsDragging] = useState(false)
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
+  const imageRef = useRef<HTMLImageElement>(null)
+
+  // Reset zoom and position when lightbox is closed
+  useEffect(() => {
+    if (!lightboxOpen) {
+      setScale(1)
+      setPosition({ x: 0, y: 0 })
+    }
+  }, [lightboxOpen])
+
+  // Prevent body scrolling when lightbox is open
+  useEffect(() => {
+    if (lightboxOpen) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = ""
+    }
+    return () => {
+      document.body.style.overflow = ""
+    }
+  }, [lightboxOpen])
+
+  const handleImageClick = () => {
+    setLightboxOpen(true)
+  }
+
+  const closeLightbox = () => {
+    setLightboxOpen(false)
+  }
+
+  const zoomIn = () => {
+    setScale((prev) => Math.min(prev + 0.5, 4))
+  }
+
+  const zoomOut = () => {
+    setScale((prev) => Math.max(prev - 0.5, 1))
+  }
+
+  const handleMouseDown = (e: React.MouseEvent<HTMLDivElement> | React.TouchEvent<HTMLDivElement>) => {
+    setIsDragging(true)
+
+    if ("touches" in e) {
+      // Touch event
+      setDragStart({
+        x: e.touches[0].clientX - position.x,
+        y: e.touches[0].clientY - position.y,
+      })
+    } else {
+      // Mouse event
+      setDragStart({
+        x: e.clientX - position.x,
+        y: e.clientY - position.y,
+      })
+    }
+  }
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement> | React.TouchEvent<HTMLDivElement>) => {
+    if (!isDragging) return
+
+    if ("touches" in e) {
+      // Touch event
+      setPosition({
+        x: e.touches[0].clientX - dragStart.x,
+        y: e.touches[0].clientY - dragStart.y,
+      })
+    } else {
+      // Mouse event
+      setPosition({
+        x: e.clientX - dragStart.x,
+        y: e.clientY - dragStart.y,
+      })
+    }
+  }
+
+  const handleMouseUp = () => {
+    setIsDragging(false)
+  }
+
   return (
     <>
       <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
@@ -123,9 +209,104 @@ export function ElementInfo({ element, isOpen, onToggle, onBackClick, onCategory
                 )}
               </div>
             </div>
+
+            {/* Element image */}
+            <div className="mt-4">
+              <h3 className="font-semibold">Element Image:</h3>
+              <div className="mt-2 flex justify-start">
+                {element.image && element.image.url ? (
+                  <img
+                    ref={imageRef}
+                    src={
+                      element.image?.url ||
+                      `https://raw.githubusercontent.com/Bowserinator/Periodic-Table-JSON/master/images/${element.symbol.toLowerCase() || "/placeholder.svg"}.png`
+                    }
+                    alt={`Image of ${element.name}`}
+                    className="max-h-48 rounded-md shadow-md cursor-pointer hover:opacity-90 transition-opacity"
+                    onClick={handleImageClick}
+                    onError={(e) => {
+                      e.currentTarget.src = `/placeholder.svg?height=150&width=150&text=${element.symbol}`
+                      e.currentTarget.alt = `No image available for ${element.name}`
+                    }}
+                  />
+                ) : (
+                  <div
+                    className="bg-muted rounded-md flex items-center justify-center h-32 w-32 cursor-pointer hover:opacity-90 transition-opacity"
+                    onClick={handleImageClick}
+                  >
+                    <span className="text-3xl font-bold">{element.symbol}</span>
+                  </div>
+                )}
+              </div>
+            </div>
           </CardContent>
         </Card>
       </div>
+
+      {/* Image Lightbox */}
+      {lightboxOpen && (
+        <div className="fixed inset-0 bg-black/80 z-[100] flex items-center justify-center" onClick={closeLightbox}>
+          <div
+            className="relative w-full h-full flex items-center justify-center overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+            onMouseDown={handleMouseDown}
+            onMouseMove={handleMouseMove}
+            onMouseUp={handleMouseUp}
+            onMouseLeave={handleMouseUp}
+            onTouchStart={handleMouseDown}
+            onTouchMove={handleMouseMove}
+            onTouchEnd={handleMouseUp}
+          >
+            <img
+              src={
+                element.image?.url ||
+                `https://raw.githubusercontent.com/Bowserinator/Periodic-Table-JSON/master/images/${element.symbol.toLowerCase() || "/placeholder.svg"}.png`
+              }
+              alt={`Image of ${element.name}`}
+              className="max-w-full max-h-full object-contain transition-transform"
+              style={{
+                transform: `translate(${position.x}px, ${position.y}px) scale(${scale})`,
+                cursor: isDragging ? "grabbing" : "grab",
+              }}
+              onError={(e) => {
+                e.currentTarget.src = `/placeholder.svg?height=300&width=300&text=${element.symbol}`
+              }}
+            />
+
+            {/* Close button */}
+            <button
+              className="absolute top-4 right-4 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors"
+              onClick={closeLightbox}
+            >
+              <X className="h-6 w-6" />
+            </button>
+
+            {/* Zoom controls */}
+            <div className="absolute bottom-4 right-4 flex gap-2">
+              <button
+                className="bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors"
+                onClick={zoomIn}
+              >
+                <ZoomIn className="h-6 w-6" />
+              </button>
+              <button
+                className="bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors"
+                onClick={zoomOut}
+                disabled={scale <= 1}
+              >
+                <ZoomOut className="h-6 w-6" />
+              </button>
+            </div>
+
+            {/* Attribution if available */}
+            {element.image?.attribution && (
+              <div className="absolute bottom-4 left-4 bg-black/50 text-white text-xs p-2 rounded max-w-[80%]">
+                {element.image.attribution}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </>
   )
 }

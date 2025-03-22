@@ -10,7 +10,7 @@ interface CategoryLegendProps {
 }
 
 export function CategoryLegend({ onCategoryClick }: CategoryLegendProps) {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(true)
   const [isMobile, setIsMobile] = useState(false)
   const { theme } = useTheme()
   const [mounted, setMounted] = useState(false)
@@ -38,7 +38,7 @@ export function CategoryLegend({ onCategoryClick }: CategoryLegendProps) {
 
   return (
     <div
-      className={`fixed ${isMobile ? "bottom-16 left-0 right-0 mx-4" : "bottom-16 left-4"} ${isMobile ? "z-[100]" : "z-20"} transition-all duration-300 ease-in-out`}
+      className={`fixed ${isMobile ? "bottom-16 left-0 right-0 mx-4" : "bottom-16 left-4"} z-[100] transition-all duration-300 ease-in-out`}
     >
       {/* Toggle button */}
       <Button

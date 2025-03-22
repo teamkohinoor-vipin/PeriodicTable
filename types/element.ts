@@ -10,6 +10,10 @@ export interface Element {
   discovered_by?: string
   summary?: string
   applications?: string[]
+  image?: {
+    url: string
+    attribution?: string
+  }
 }
 
 export interface Hazard {

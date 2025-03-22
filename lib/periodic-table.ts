@@ -337,9 +337,37 @@ export async function loadElementData() {
       if (typeof element === "object" && element.number) {
         // Add applications data (this would normally come from an API but is mocked here)
         element.applications = getElementApplications(element.symbol)
+
+        // We'll use the image URL from the element data if available,
+        // otherwise it will be handled in the component
+
         elementsData[element.number] = element
       }
     })
+
+    // Also fetch the complete JSON data which contains image URLs
+    fetch("https://raw.githubusercontent.com/Bowserinator/Periodic-Table-JSON/master/PeriodicTableJSON.json")
+      .then((response) => response.json())
+      .then((fullData) => {
+        if (fullData && fullData.elements) {
+          // Update our elements data with image URLs from the full data
+          fullData.elements.forEach((fullElement: any) => {
+            if (elementsData[fullElement.number]) {
+              // Add image data if available
+              if (fullElement.image) {
+                elementsData[fullElement.number].image = {
+                  url: fullElement.image.url,
+                  attribution: fullElement.image.attribution,
+                }
+              }
+            }
+          })
+          console.log("Element images loaded successfully")
+        }
+      })
+      .catch((error) => {
+        console.error("Error loading full element data:", error)
+      })
 
     // Store in window for access from other modules
     window.elementsData = elementsData
