@@ -1,0 +1,3044 @@
+{
+  "elements": [
+    {
+      "name": "Hydrogen",
+      "symbol": "H",
+      "atomicNumber": 1,
+      "isotopes": [
+        {
+          "massNumber": 1,
+          "symbol": "¹H",
+          "name": "Protium",
+          "abundance": 99.9885,
+          "stable": true
+        },
+        {
+          "massNumber": 2,
+          "symbol": "²H",
+          "name": "Deuterium",
+          "abundance": 0.0115,
+          "stable": true
+        },
+        {
+          "massNumber": 3,
+          "symbol": "³H",
+          "name": "Tritium",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "12.32 years"
+        }
+      ]
+    },
+    {
+      "name": "Helium",
+      "symbol": "He",
+      "atomicNumber": 2,
+      "isotopes": [
+        {
+          "massNumber": 3,
+          "symbol": "³He",
+          "abundance": 0.000134,
+          "stable": true
+        },
+        {
+          "massNumber": 4,
+          "symbol": "⁴He",
+          "abundance": 99.999866,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Lithium",
+      "symbol": "Li",
+      "atomicNumber": 3,
+      "isotopes": [
+        {
+          "massNumber": 6,
+          "symbol": "⁶Li",
+          "abundance": 7.59,
+          "stable": true
+        },
+        {
+          "massNumber": 7,
+          "symbol": "⁷Li",
+          "abundance": 92.41,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Beryllium",
+      "symbol": "Be",
+      "atomicNumber": 4,
+      "isotopes": [
+        {
+          "massNumber": 9,
+          "symbol": "⁹Be",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Boron",
+      "symbol": "B",
+      "atomicNumber": 5,
+      "isotopes": [
+        {
+          "massNumber": 10,
+          "symbol": "¹⁰B",
+          "abundance": 19.9,
+          "stable": true
+        },
+        {
+          "massNumber": 11,
+          "symbol": "¹¹B",
+          "abundance": 80.1,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Carbon",
+      "symbol": "C",
+      "atomicNumber": 6,
+      "isotopes": [
+        {
+          "massNumber": 12,
+          "symbol": "¹²C",
+          "abundance": 98.93,
+          "stable": true
+        },
+        {
+          "massNumber": 13,
+          "symbol": "¹³C",
+          "abundance": 1.07,
+          "stable": true
+        },
+        {
+          "massNumber": 14,
+          "symbol": "¹⁴C",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "5,730 years"
+        }
+      ]
+    },
+    {
+      "name": "Nitrogen",
+      "symbol": "N",
+      "atomicNumber": 7,
+      "isotopes": [
+        {
+          "massNumber": 14,
+          "symbol": "¹⁴N",
+          "abundance": 99.636,
+          "stable": true
+        },
+        {
+          "massNumber": 15,
+          "symbol": "¹⁵N",
+          "abundance": 0.364,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Oxygen",
+      "symbol": "O",
+      "atomicNumber": 8,
+      "isotopes": [
+        {
+          "massNumber": 16,
+          "symbol": "¹⁶O",
+          "abundance": 99.757,
+          "stable": true
+        },
+        {
+          "massNumber": 17,
+          "symbol": "¹⁷O",
+          "abundance": 0.038,
+          "stable": true
+        },
+        {
+          "massNumber": 18,
+          "symbol": "¹⁸O",
+          "abundance": 0.205,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Fluorine",
+      "symbol": "F",
+      "atomicNumber": 9,
+      "isotopes": [
+        {
+          "massNumber": 19,
+          "symbol": "¹⁹F",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Neon",
+      "symbol": "Ne",
+      "atomicNumber": 10,
+      "isotopes": [
+        {
+          "massNumber": 20,
+          "symbol": "²⁰Ne",
+          "abundance": 90.48,
+          "stable": true
+        },
+        {
+          "massNumber": 21,
+          "symbol": "²¹Ne",
+          "abundance": 0.27,
+          "stable": true
+        },
+        {
+          "massNumber": 22,
+          "symbol": "²²Ne",
+          "abundance": 9.25,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Sodium",
+      "symbol": "Na",
+      "atomicNumber": 11,
+      "isotopes": [
+        {
+          "massNumber": 23,
+          "symbol": "²³Na",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Magnesium",
+      "symbol": "Mg",
+      "atomicNumber": 12,
+      "isotopes": [
+        {
+          "massNumber": 24,
+          "symbol": "²⁴Mg",
+          "abundance": 78.99,
+          "stable": true
+        },
+        {
+          "massNumber": 25,
+          "symbol": "²⁵Mg",
+          "abundance": 10.00,
+          "stable": true
+        },
+        {
+          "massNumber": 26,
+          "symbol": "²⁶Mg",
+          "abundance": 11.01,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Aluminum",
+      "symbol": "Al",
+      "atomicNumber": 13,
+      "isotopes": [
+        {
+          "massNumber": 27,
+          "symbol": "²⁷Al",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Silicon",
+      "symbol": "Si",
+      "atomicNumber": 14,
+      "isotopes": [
+        {
+          "massNumber": 28,
+          "symbol": "²⁸Si",
+          "abundance": 92.223,
+          "stable": true
+        },
+        {
+          "massNumber": 29,
+          "symbol": "²⁹Si",
+          "abundance": 4.685,
+          "stable": true
+        },
+        {
+          "massNumber": 30,
+          "symbol": "³⁰Si",
+          "abundance": 3.092,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Phosphorus",
+      "symbol": "P",
+      "atomicNumber": 15,
+      "isotopes": [
+        {
+          "massNumber": 31,
+          "symbol": "³¹P",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Sulfur",
+      "symbol": "S",
+      "atomicNumber": 16,
+      "isotopes": [
+        {
+          "massNumber": 32,
+          "symbol": "³²S",
+          "abundance": 94.99,
+          "stable": true
+        },
+        {
+          "massNumber": 33,
+          "symbol": "³³S",
+          "abundance": 0.75,
+          "stable": true
+        },
+        {
+          "massNumber": 34,
+          "symbol": "³⁴S",
+          "abundance": 4.25,
+          "stable": true
+        },
+        {
+          "massNumber": 36,
+          "symbol": "³⁶S",
+          "abundance": 0.01,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Chlorine",
+      "symbol": "Cl",
+      "atomicNumber": 17,
+      "isotopes": [
+        {
+          "massNumber": 35,
+          "symbol": "³⁵Cl",
+          "abundance": 75.76,
+          "stable": true
+        },
+        {
+          "massNumber": 37,
+          "symbol": "³⁷Cl",
+          "abundance": 24.24,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Argon",
+      "symbol": "Ar",
+      "atomicNumber": 18,
+      "isotopes": [
+        {
+          "massNumber": 36,
+          "symbol": "³⁶Ar",
+          "abundance": 0.3365,
+          "stable": true
+        },
+        {
+          "massNumber": 38,
+          "symbol": "³⁸Ar",
+          "abundance": 0.0632,
+          "stable": true
+        },
+        {
+          "massNumber": 40,
+          "symbol": "⁴⁰Ar",
+          "abundance": 99.6003,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Potassium",
+      "symbol": "K",
+      "atomicNumber": 19,
+      "isotopes": [
+        {
+          "massNumber": 39,
+          "symbol": "³⁹K",
+          "abundance": 93.2581,
+          "stable": true
+        },
+        {
+          "massNumber": 40,
+          "symbol": "⁴⁰K",
+          "abundance": 0.0117,
+          "stable": false,
+          "halfLife": "1.248 × 10^9 years"
+        },
+        {
+          "massNumber": 41,
+          "symbol": "⁴¹K",
+          "abundance": 6.7302,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Calcium",
+      "symbol": "Ca",
+      "atomicNumber": 20,
+      "isotopes": [
+        {
+          "massNumber": 40,
+          "symbol": "⁴⁰Ca",
+          "abundance": 96.941,
+          "stable": true
+        },
+        {
+          "massNumber": 42,
+          "symbol": "⁴²Ca",
+          "abundance": 0.647,
+          "stable": true
+        },
+        {
+          "massNumber": 43,
+          "symbol": "⁴³Ca",
+          "abundance": 0.135,
+          "stable": true
+        },
+        {
+          "massNumber": 44,
+          "symbol": "⁴⁴Ca",
+          "abundance": 2.086,
+          "stable": true
+        },
+        {
+          "massNumber": 46,
+          "symbol": "⁴⁶Ca",
+          "abundance": 0.004,
+          "stable": true
+        },
+        {
+          "massNumber": 48,
+          "symbol": "⁴⁸Ca",
+          "abundance": 0.187,
+          "stable": false,
+          "halfLife": "4.3 × 10^19 years"
+        }
+      ]
+    },
+    {
+      "name": "Scandium",
+      "symbol": "Sc",
+      "atomicNumber": 21,
+      "isotopes": [
+        {
+          "massNumber": 45,
+          "symbol": "⁴⁵Sc",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Titanium",
+      "symbol": "Ti",
+      "atomicNumber": 22,
+      "isotopes": [
+        {
+          "massNumber": 46,
+          "symbol": "⁴⁶Ti",
+          "abundance": 8.25,
+          "stable": true
+        },
+        {
+          "massNumber": 47,
+          "symbol": "⁴⁷Ti",
+          "abundance": 7.44,
+          "stable": true
+        },
+        {
+          "massNumber": 48,
+          "symbol": "⁴⁸Ti",
+          "abundance": 73.72,
+          "stable": true
+        },
+        {
+          "massNumber": 49,
+          "symbol": "⁴⁹Ti",
+          "abundance": 5.41,
+          "stable": true
+        },
+        {
+          "massNumber": 50,
+          "symbol": "⁵⁰Ti",
+          "abundance": 5.18,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Vanadium",
+      "symbol": "V",
+      "atomicNumber": 23,
+      "isotopes": [
+        {
+          "massNumber": 50,
+          "symbol": "⁵⁰V",
+          "abundance": 0.250,
+          "stable": false,
+          "halfLife": "1.5 × 10^17 years"
+        },
+        {
+          "massNumber": 51,
+          "symbol": "⁵¹V",
+          "abundance": 99.750,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Chromium",
+      "symbol": "Cr",
+      "atomicNumber": 24,
+      "isotopes": [
+        {
+          "massNumber": 50,
+          "symbol": "⁵⁰Cr",
+          "abundance": 4.345,
+          "stable": true
+        },
+        {
+          "massNumber": 52,
+          "symbol": "⁵²Cr",
+          "abundance": 83.789,
+          "stable": true
+        },
+        {
+          "massNumber": 53,
+          "symbol": "⁵³Cr",
+          "abundance": 9.501,
+          "stable": true
+        },
+        {
+          "massNumber": 54,
+          "symbol": "⁵⁴Cr",
+          "abundance": 2.365,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Manganese",
+      "symbol": "Mn",
+      "atomicNumber": 25,
+      "isotopes": [
+        {
+          "massNumber": 55,
+          "symbol": "⁵⁵Mn",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Iron",
+      "symbol": "Fe",
+      "atomicNumber": 26,
+      "isotopes": [
+        {
+          "massNumber": 54,
+          "symbol": "⁵⁴Fe",
+          "abundance": 5.845,
+          "stable": true
+        },
+        {
+          "massNumber": 56,
+          "symbol": "⁵⁶Fe",
+          "abundance": 91.754,
+          "stable": true
+        },
+        {
+          "massNumber": 57,
+          "symbol": "⁵⁷Fe",
+          "abundance": 2.119,
+          "stable": true
+        },
+        {
+          "massNumber": 58,
+          "symbol": "⁵⁸Fe",
+          "abundance": 0.282,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Cobalt",
+      "symbol": "Co",
+      "atomicNumber": 27,
+      "isotopes": [
+        {
+          "massNumber": 59,
+          "symbol": "⁵⁹Co",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Nickel",
+      "symbol": "Ni",
+      "atomicNumber": 28,
+      "isotopes": [
+        {
+          "massNumber": 58,
+          "symbol": "⁵⁸Ni",
+          "abundance": 68.0769,
+          "stable": true
+        },
+        {
+          "massNumber": 60,
+          "symbol": "⁶⁰Ni",
+          "abundance": 26.2231,
+          "stable": true
+        },
+        {
+          "massNumber": 61,
+          "symbol": "⁶¹Ni",
+          "abundance": 1.1399,
+          "stable": true
+        },
+        {
+          "massNumber": 62,
+          "symbol": "⁶²Ni",
+          "abundance": 3.6345,
+          "stable": true
+        },
+        {
+          "massNumber": 64,
+          "symbol": "⁶⁴Ni",
+          "abundance": 0.9256,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Copper",
+      "symbol": "Cu",
+      "atomicNumber": 29,
+      "isotopes": [
+        {
+          "massNumber": 63,
+          "symbol": "⁶³Cu",
+          "abundance": 69.17,
+          "stable": true
+        },
+        {
+          "massNumber": 65,
+          "symbol": "⁶⁵Cu",
+          "abundance": 30.83,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Zinc",
+      "symbol": "Zn",
+      "atomicNumber": 30,
+      "isotopes": [
+        {
+          "massNumber": 64,
+          "symbol": "⁶⁴Zn",
+          "abundance": 48.63,
+          "stable": true
+        },
+        {
+          "massNumber": 66,
+          "symbol": "⁶⁶Zn",
+          "abundance": 27.90,
+          "stable": true
+        },
+        {
+          "massNumber": 67,
+          "symbol": "⁶⁷Zn",
+          "abundance": 4.10,
+          "stable": true
+        },
+        {
+          "massNumber": 68,
+          "symbol": "⁶⁸Zn",
+          "abundance": 18.75,
+          "stable": true
+        },
+        {
+          "massNumber": 70,
+          "symbol": "⁷⁰Zn",
+          "abundance": 0.62,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Gallium",
+      "symbol": "Ga",
+      "atomicNumber": 31,
+      "isotopes": [
+        {
+          "massNumber": 69,
+          "symbol": "⁶⁹Ga",
+          "abundance": 60.108,
+          "stable": true
+        },
+        {
+          "massNumber": 71,
+          "symbol": "⁷¹Ga",
+          "abundance": 39.892,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Germanium",
+      "symbol": "Ge",
+      "atomicNumber": 32,
+      "isotopes": [
+        {
+          "massNumber": 70,
+          "symbol": "⁷⁰Ge",
+          "abundance": 20.84,
+          "stable": true
+        },
+        {
+          "massNumber": 72,
+          "symbol": "⁷²Ge",
+          "abundance": 27.54,
+          "stable": true
+        },
+        {
+          "massNumber": 73,
+          "symbol": "⁷³Ge",
+          "abundance": 7.73,
+          "stable": true
+        },
+        {
+          "massNumber": 74,
+          "symbol": "⁷⁴Ge",
+          "abundance": 36.28,
+          "stable": true
+        },
+        {
+          "massNumber": 76,
+          "symbol": "⁷⁶Ge",
+          "abundance": 7.61,
+          "stable": false,
+          "halfLife": "1.78 × 10^21 years"
+        }
+      ]
+    },
+    {
+      "name": "Arsenic",
+      "symbol": "As",
+      "atomicNumber": 33,
+      "isotopes": [
+        {
+          "massNumber": 75,
+          "symbol": "⁷⁵As",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Selenium",
+      "symbol": "Se",
+      "atomicNumber": 34,
+      "isotopes": [
+        {
+          "massNumber": 74,
+          "symbol": "⁷⁴Se",
+          "abundance": 0.89,
+          "stable": true
+        },
+        {
+          "massNumber": 76,
+          "symbol": "⁷⁶Se",
+          "abundance": 9.37,
+          "stable": true
+        },
+        {
+          "massNumber": 77,
+          "symbol": "⁷⁷Se",
+          "abundance": 7.63,
+          "stable": true
+        },
+        {
+          "massNumber": 78,
+          "symbol": "⁷⁸Se",
+          "abundance": 23.77,
+          "stable": true
+        },
+        {
+          "massNumber": 80,
+          "symbol": "⁸⁰Se",
+          "abundance": 49.61,
+          "stable": true
+        },
+        {
+          "massNumber": 82,
+          "symbol": "⁸²Se",
+          "abundance": 8.73,
+          "stable": false,
+          "halfLife": "9.7 × 10^19 years"
+        }
+      ]
+    },
+    {
+      "name": "Bromine",
+      "symbol": "Br",
+      "atomicNumber": 35,
+      "isotopes": [
+        {
+          "massNumber": 79,
+          "symbol": "⁷⁹Br",
+          "abundance": 50.69,
+          "stable": true
+        },
+        {
+          "massNumber": 81,
+          "symbol": "⁸¹Br",
+          "abundance": 49.31,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Krypton",
+      "symbol": "Kr",
+      "atomicNumber": 36,
+      "isotopes": [
+        {
+          "massNumber": 78,
+          "symbol": "⁷⁸Kr",
+          "abundance": 0.35,
+          "stable": true
+        },
+        {
+          "massNumber": 80,
+          "symbol": "⁸⁰Kr",
+          "abundance": 2.28,
+          "stable": true
+        },
+        {
+          "massNumber": 82,
+          "symbol": "⁸²Kr",
+          "abundance": 11.58,
+          "stable": true
+        },
+        {
+          "massNumber": 83,
+          "symbol": "⁸³Kr",
+          "abundance": 11.49,
+          "stable": true
+        },
+        {
+          "massNumber": 84,
+          "symbol": "⁸⁴Kr",
+          "abundance": 57.00,
+          "stable": true
+        },
+        {
+          "massNumber": 86,
+          "symbol": "⁸⁶Kr",
+          "abundance": 17.30,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Rubidium",
+      "symbol": "Rb",
+      "atomicNumber": 37,
+      "isotopes": [
+        {
+          "massNumber": 85,
+          "symbol": "⁸⁵Rb",
+          "abundance": 72.17,
+          "stable": true
+        },
+        {
+          "massNumber": 87,
+          "symbol": "⁸⁷Rb",
+          "abundance": 27.83,
+          "stable": false,
+          "halfLife": "4.9 × 10^10 years"
+        }
+      ]
+    },
+    {
+      "name": "Strontium",
+      "symbol": "Sr",
+      "atomicNumber": 38,
+      "isotopes": [
+        {
+          "massNumber": 84,
+          "symbol": "⁸⁴Sr",
+          "abundance": 0.56,
+          "stable": true
+        },
+        {
+          "massNumber": 86,
+          "symbol": "⁸⁶Sr",
+          "abundance": 9.86,
+          "stable": true
+        },
+        {
+          "massNumber": 87,
+          "symbol": "⁸⁷Sr",
+          "abundance": 7.00,
+          "stable": true
+        },
+        {
+          "massNumber": 88,
+          "symbol": "⁸⁸Sr",
+          "abundance": 82.58,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Yttrium",
+      "symbol": "Y",
+      "atomicNumber": 39,
+      "isotopes": [
+        {
+          "massNumber": 89,
+          "symbol": "⁸⁹Y",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Zirconium",
+      "symbol": "Zr",
+      "atomicNumber": 40,
+      "isotopes": [
+        {
+          "massNumber": 90,
+          "symbol": "⁹⁰Zr",
+          "abundance": 51.45,
+          "stable": true
+        },
+        {
+          "massNumber": 91,
+          "symbol": "⁹¹Zr",
+          "abundance": 11.22,
+          "stable": true
+        },
+        {
+          "massNumber": 92,
+          "symbol": "⁹²Zr",
+          "abundance": 17.15,
+          "stable": true
+        },
+        {
+          "massNumber": 94,
+          "symbol": "⁹⁴Zr",
+          "abundance": 17.38,
+          "stable": true
+        },
+        {
+          "massNumber": 96,
+          "symbol": "⁹⁶Zr",
+          "abundance": 2.80,
+          "stable": false,
+          "halfLife": "2.0 × 10^19 years"
+        }
+      ]
+    },
+    {
+      "name": "Niobium",
+      "symbol": "Nb",
+      "atomicNumber": 41,
+      "isotopes": [
+        {
+          "massNumber": 93,
+          "symbol": "⁹³Nb",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Molybdenum",
+      "symbol": "Mo",
+      "atomicNumber": 42,
+      "isotopes": [
+        {
+          "massNumber": 92,
+          "symbol": "⁹²Mo",
+          "abundance": 14.84,
+          "stable": true
+        },
+        {
+          "massNumber": 94,
+          "symbol": "⁹⁴Mo",
+          "abundance": 9.25,
+          "stable": true
+        },
+        {
+          "massNumber": 95,
+          "symbol": "⁹⁵Mo",
+          "abundance": 15.92,
+          "stable": true
+        },
+        {
+          "massNumber": 96,
+          "symbol": "⁹⁶Mo",
+          "abundance": 16.68,
+          "stable": true
+        },
+        {
+          "massNumber": 97,
+          "symbol": "⁹⁷Mo",
+          "abundance": 9.55,
+          "stable": true
+        },
+        {
+          "massNumber": 98,
+          "symbol": "⁹⁸Mo",
+          "abundance": 24.13,
+          "stable": true
+        },
+        {
+          "massNumber": 100,
+          "symbol": "¹⁰⁰Mo",
+          "abundance": 9.63,
+          "stable": false,
+          "halfLife": "8.4 × 10^18 years"
+        }
+      ]
+    },
+    {
+      "name": "Technetium",
+      "symbol": "Tc",
+      "atomicNumber": 43,
+      "isotopes": [
+        {
+          "massNumber": 98,
+          "symbol": "⁹⁸Tc",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "4.2 × 10^6 years"
+        },
+        {
+          "massNumber": 99,
+          "symbol": "⁹⁹Tc",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "2.1 × 10^5 years"
+        }
+      ]
+    },
+    {
+      "name": "Ruthenium",
+      "symbol": "Ru",
+      "atomicNumber": 44,
+      "isotopes": [
+        {
+          "massNumber": 96,
+          "symbol": "⁹⁶Ru",
+          "abundance": 5.54,
+          "stable": true
+        },
+        {
+          "massNumber": 98,
+          "symbol": "⁹⁸Ru",
+          "abundance": 1.87,
+          "stable": true
+        },
+        {
+          "massNumber": 99,
+          "symbol": "⁹⁹Ru",
+          "abundance": 12.76,
+          "stable": true
+        },
+        {
+          "massNumber": 100,
+          "symbol": "¹⁰⁰Ru",
+          "abundance": 12.60,
+          "stable": true
+        },
+        {
+          "massNumber": 101,
+          "symbol": "¹⁰¹Ru",
+          "abundance": 17.06,
+          "stable": true
+        },
+        {
+          "massNumber": 102,
+          "symbol": "¹⁰²Ru",
+          "abundance": 31.55,
+          "stable": true
+        },
+        {
+          "massNumber": 104,
+          "symbol": "¹⁰⁴Ru",
+          "abundance": 18.62,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Rhodium",
+      "symbol": "Rh",
+      "atomicNumber": 45,
+      "isotopes": [
+        {
+          "massNumber": 103,
+          "symbol": "¹⁰³Rh",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Palladium",
+      "symbol": "Pd",
+      "atomicNumber": 46,
+      "isotopes": [
+        {
+          "massNumber": 102,
+          "symbol": "¹⁰²Pd",
+          "abundance": 1.02,
+          "stable": true
+        },
+        {
+          "massNumber": 104,
+          "symbol": "¹⁰⁴Pd",
+          "abundance": 11.14,
+          "stable": true
+        },
+        {
+          "massNumber": 105,
+          "symbol": "¹⁰⁵Pd",
+          "abundance": 22.33,
+          "stable": true
+        },
+        {
+          "massNumber": 106,
+          "symbol": "¹⁰⁶Pd",
+          "abundance": 27.33,
+          "stable": true
+        },
+        {
+          "massNumber": 108,
+          "symbol": "¹⁰⁸Pd",
+          "abundance": 26.46,
+          "stable": true
+        },
+        {
+          "massNumber": 110,
+          "symbol": "¹¹⁰Pd",
+          "abundance": 11.72,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Silver",
+      "symbol": "Ag",
+      "atomicNumber": 47,
+      "isotopes": [
+        {
+          "massNumber": 107,
+          "symbol": "¹⁰⁷Ag",
+          "abundance": 51.839,
+          "stable": true
+        },
+        {
+          "massNumber": 109,
+          "symbol": "¹⁰⁹Ag",
+          "abundance": 48.161,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Cadmium",
+      "symbol": "Cd",
+      "atomicNumber": 48,
+      "isotopes": [
+        {
+          "massNumber": 106,
+          "symbol": "¹⁰⁶Cd",
+          "abundance": 1.25,
+          "stable": true
+        },
+        {
+          "massNumber": 108,
+          "symbol": "¹⁰⁸Cd",
+          "abundance": 0.89,
+          "stable": true
+        },
+        {
+          "massNumber": 110,
+          "symbol": "¹¹⁰Cd",
+          "abundance": 12.49,
+          "stable": true
+        },
+        {
+          "massNumber": 111,
+          "symbol": "¹¹¹Cd",
+          "abundance": 12.80,
+          "stable": true
+        },
+        {
+          "massNumber": 112,
+          "symbol": "¹¹²Cd",
+          "abundance": 24.13,
+          "stable": true
+        },
+        {
+          "massNumber": 113,
+          "symbol": "¹¹³Cd",
+          "abundance": 12.22,
+          "stable": false,
+          "halfLife": "8.0 × 10^15 years"
+        },
+        {
+          "massNumber": 114,
+          "symbol": "¹¹⁴Cd",
+          "abundance": 28.73,
+          "stable": true
+        },
+        {
+          "massNumber": 116,
+          "symbol": "¹¹⁶Cd",
+          "abundance": 7.49,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Indium",
+      "symbol": "In",
+      "atomicNumber": 49,
+      "isotopes": [
+        {
+          "massNumber": 113,
+          "symbol": "¹¹³In",
+          "abundance": 4.29,
+          "stable": true
+        },
+        {
+          "massNumber": 115,
+          "symbol": "¹¹⁵In",
+          "abundance": 95.71,
+          "stable": false,
+          "halfLife": "4.41 × 10^14 years"
+        }
+      ]
+    },
+    {
+      "name": "Tin",
+      "symbol": "Sn",
+      "atomicNumber": 50,
+      "isotopes": [
+        {
+          "massNumber": 112,
+          "symbol": "¹¹²Sn",
+          "abundance": 0.97,
+          "stable": true
+        },
+        {
+          "massNumber": 114,
+          "symbol": "¹¹⁴Sn",
+          "abundance": 0.66,
+          "stable": true
+        },
+        {
+          "massNumber": 115,
+          "symbol": "¹¹⁵Sn",
+          "abundance": 0.34,
+          "stable": true
+        },
+        {
+          "massNumber": 116,
+          "symbol": "¹¹⁶Sn",
+          "abundance": 14.54,
+          "stable": true
+        },
+        {
+          "massNumber": 117,
+          "symbol": "¹¹⁷Sn",
+          "abundance": 7.68,
+          "stable": true
+        },
+        {
+          "massNumber": 118,
+          "symbol": "¹¹⁸Sn",
+          "abundance": 24.22,
+          "stable": true
+        },
+        {
+          "massNumber": 119,
+          "symbol": "¹¹⁹Sn",
+          "abundance": 8.59,
+          "stable": true
+        },
+        {
+          "massNumber": 120,
+          "symbol": "¹²⁰Sn",
+          "abundance": 32.58,
+          "stable": true
+        },
+        {
+          "massNumber": 122,
+          "symbol": "¹²²Sn",
+          "abundance": 4.63,
+          "stable": true
+        },
+        {
+          "massNumber": 124,
+          "symbol": "¹²⁴Sn",
+          "abundance": 5.79,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Antimony",
+      "symbol": "Sb",
+      "atomicNumber": 51,
+      "isotopes": [
+        {
+          "massNumber": 121,
+          "symbol": "¹²¹Sb",
+          "abundance": 57.21,
+          "stable": true
+        },
+        {
+          "massNumber": 123,
+          "symbol": "¹²³Sb",
+          "abundance": 42.79,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Tellurium",
+      "symbol": "Te",
+      "atomicNumber": 52,
+      "isotopes": [
+        {
+          "massNumber": 120,
+          "symbol": "¹²⁰Te",
+          "abundance": 0.09,
+          "stable": true
+        },
+        {
+          "massNumber": 122,
+          "symbol": "¹²²Te",
+          "abundance": 2.55,
+          "stable": true
+        },
+        {
+          "massNumber": 123,
+          "symbol": "¹²³Te",
+          "abundance": 0.89,
+          "stable": true
+        },
+        {
+          "massNumber": 124,
+          "symbol": "¹²⁴Te",
+          "abundance": 4.74,
+          "stable": true
+        },
+        {
+          "massNumber": 125,
+          "symbol": "¹²⁵Te",
+          "abundance": 7.07,
+          "stable": true
+        },
+        {
+          "massNumber": 126,
+          "symbol": "¹²⁶Te",
+          "abundance": 18.84,
+          "stable": true
+        },
+        {
+          "massNumber": 128,
+          "symbol": "¹²⁸Te",
+          "abundance": 31.74,
+          "stable": false,
+          "halfLife": "2.2 × 10^24 years"
+        },
+        {
+          "massNumber": 130,
+          "symbol": "¹³⁰Te",
+          "abundance": 34.08,
+          "stable": false,
+          "halfLife": "7.9 × 10^20 years"
+        }
+      ]
+    },
+    {
+      "name": "Iodine",
+      "symbol": "I",
+      "atomicNumber": 53,
+      "isotopes": [
+        {
+          "massNumber": 127,
+          "symbol": "¹²⁷I",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Xenon",
+      "symbol": "Xe",
+      "atomicNumber": 54,
+      "isotopes": [
+        {
+          "massNumber": 124,
+          "symbol": "¹²⁴Xe",
+          "abundance": 0.09,
+          "stable": true
+        },
+        {
+          "massNumber": 126,
+          "symbol": "¹²⁶Xe",
+          "abundance": 0.09,
+          "stable": true
+        },
+        {
+          "massNumber": 128,
+          "symbol": "¹²⁸Xe",
+          "abundance": 1.92,
+          "stable": true
+        },
+        {
+          "massNumber": 129,
+          "symbol": "¹²⁹Xe",
+          "abundance": 26.44,
+          "stable": true
+        },
+        {
+          "massNumber": 130,
+          "symbol": "¹³⁰Xe",
+          "abundance": 4.08,
+          "stable": true
+        },
+        {
+          "massNumber": 131,
+          "symbol": "¹³¹Xe",
+          "abundance": 21.18,
+          "stable": true
+        },
+        {
+          "massNumber": 132,
+          "symbol": "¹³²Xe",
+          "abundance": 26.89,
+          "stable": true
+        },
+        {
+          "massNumber": 134,
+          "symbol": "¹³⁴Xe",
+          "abundance": 10.44,
+          "stable": true
+        },
+        {
+          "massNumber": 136,
+          "symbol": "¹³⁶Xe",
+          "abundance": 8.87,
+          "stable": false,
+          "halfLife": "2.165 × 10^21 years"
+        }
+      ]
+    },
+    {
+      "name": "Cesium",
+      "symbol": "Cs",
+      "atomicNumber": 55,
+      "isotopes": [
+        {
+          "massNumber": 133,
+          "symbol": "¹³³Cs",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Barium",
+      "symbol": "Ba",
+      "atomicNumber": 56,
+      "isotopes": [
+        {
+          "massNumber": 130,
+          "symbol": "¹³⁰Ba",
+          "abundance": 0.106,
+          "stable": true
+        },
+        {
+          "massNumber": 132,
+          "symbol": "¹³²Ba",
+          "abundance": 0.101,
+          "stable": true
+        },
+        {
+          "massNumber": 134,
+          "symbol": "¹³⁴Ba",
+          "abundance": 2.417,
+          "stable": true
+        },
+        {
+          "massNumber": 135,
+          "symbol": "¹³⁵Ba",
+          "abundance": 6.592,
+          "stable": true
+        },
+        {
+          "massNumber": 136,
+          "symbol": "¹³⁶Ba",
+          "abundance": 7.854,
+          "stable": true
+        },
+        {
+          "massNumber": 137,
+          "symbol": "¹³⁷Ba",
+          "abundance": 11.232,
+          "stable": true
+        },
+        {
+          "massNumber": 138,
+          "symbol": "¹³⁸Ba",
+          "abundance": 71.698,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Lanthanum",
+      "symbol": "La",
+      "atomicNumber": 57,
+      "isotopes": [
+        {
+          "massNumber": 138,
+          "symbol": "¹³⁸La",
+          "abundance": 0.09,
+          "stable": false,
+          "halfLife": "1.05 × 10^11 years"
+        },
+        {
+          "massNumber": 139,
+          "symbol": "¹³⁹La",
+          "abundance": 99.91,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Cerium",
+      "symbol": "Ce",
+      "atomicNumber": 58,
+      "isotopes": [
+        {
+          "massNumber": 136,
+          "symbol": "¹³⁶Ce",
+          "abundance": 0.185,
+          "stable": true
+        },
+        {
+          "massNumber": 138,
+          "symbol": "¹³⁸Ce",
+          "abundance": 0.251,
+          "stable": true
+        },
+        {
+          "massNumber": 140,
+          "symbol": "¹⁴⁰Ce",
+          "abundance": 88.450,
+          "stable": true
+        },
+        {
+          "massNumber": 142,
+          "symbol": "¹⁴²Ce",
+          "abundance": 11.114,
+          "stable": false,
+          "halfLife": "5 × 10^16 years"
+        }
+      ]
+    },
+    {
+      "name": "Praseodymium",
+      "symbol": "Pr",
+      "atomicNumber": 59,
+      "isotopes": [
+        {
+          "massNumber": 141,
+          "symbol": "¹⁴¹Pr",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Neodymium",
+      "symbol": "Nd",
+      "atomicNumber": 60,
+      "isotopes": [
+        {
+          "massNumber": 142,
+          "symbol": "¹⁴²Nd",
+          "abundance": 27.2,
+          "stable": true
+        },
+        {
+          "massNumber": 143,
+          "symbol": "¹⁴³Nd",
+          "abundance": 12.2,
+          "stable": true
+        },
+        {
+          "massNumber": 144,
+          "symbol": "¹⁴⁴Nd",
+          "abundance": 23.8,
+          "stable": false,
+          "halfLife": "2.29 × 10^15 years"
+        },
+        {
+          "massNumber": 145,
+          "symbol": "¹⁴⁵Nd",
+          "abundance": 8.3,
+          "stable": true
+        },
+        {
+          "massNumber": 146,
+          "symbol": "¹⁴⁶Nd",
+          "abundance": 17.2,
+          "stable": true
+        },
+        {
+          "massNumber": 148,
+          "symbol": "¹⁴⁸Nd",
+          "abundance": 5.7,
+          "stable": true
+        },
+        {
+          "massNumber": 150,
+          "symbol": "¹⁵⁰Nd",
+          "abundance": 5.6,
+          "stable": false,
+          "halfLife": "6.7 × 10^18 years"
+        }
+      ]
+    },
+    {
+      "name": "Promethium",
+      "symbol": "Pm",
+      "atomicNumber": 61,
+      "isotopes": [
+        {
+          "massNumber": 145,
+          "symbol": "¹⁴⁵Pm",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "17.7 years"
+        },
+        {
+          "massNumber": 147,
+          "symbol": "¹⁴⁷Pm",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "2.6234 years"
+        }
+      ]
+    },
+    {
+      "name": "Samarium",
+      "symbol": "Sm",
+      "atomicNumber": 62,
+      "isotopes": [
+        {
+          "massNumber": 144,
+          "symbol": "¹⁴⁴Sm",
+          "abundance": 3.07,
+          "stable": true
+        },
+        {
+          "massNumber": 147,
+          "symbol": "¹⁴⁷Sm",
+          "abundance": 14.99,
+          "stable": false,
+          "halfLife": "1.06 × 10^11 years"
+        },
+        {
+          "massNumber": 148,
+          "symbol": "¹⁴⁸Sm",
+          "abundance": 11.24,
+          "stable": true
+        },
+        {
+          "massNumber": 149,
+          "symbol": "¹⁴⁹Sm",
+          "abundance": 13.82,
+          "stable": true
+        },
+        {
+          "massNumber": 150,
+          "symbol": "¹⁵⁰Sm",
+          "abundance": 7.38,
+          "stable": true
+        },
+        {
+          "massNumber": 152,
+          "symbol": "¹⁵²Sm",
+          "abundance": 26.75,
+          "stable": true
+        },
+        {
+          "massNumber": 154,
+          "symbol": "¹⁵⁴Sm",
+          "abundance": 22.75,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Europium",
+      "symbol": "Eu",
+      "atomicNumber": 63,
+      "isotopes": [
+        {
+          "massNumber": 151,
+          "symbol": "¹⁵¹Eu",
+          "abundance": 47.81,
+          "stable": true
+        },
+        {
+          "massNumber": 153,
+          "symbol": "¹⁵³Eu",
+          "abundance": 52.19,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Gadolinium",
+      "symbol": "Gd",
+      "atomicNumber": 64,
+      "isotopes": [
+        {
+          "massNumber": 152,
+          "symbol": "¹⁵²Gd",
+          "abundance": 0.20,
+          "stable": true
+        },
+        {
+          "massNumber": 154,
+          "symbol": "¹⁵⁴Gd",
+          "abundance": 2.18,
+          "stable": true
+        },
+        {
+          "massNumber": 155,
+          "symbol": "¹⁵⁵Gd",
+          "abundance": 14.80,
+          "stable": true
+        },
+        {
+          "massNumber": 156,
+          "symbol": "¹⁵⁶Gd",
+          "abundance": 20.47,
+          "stable": true
+        },
+        {
+          "massNumber": 157,
+          "symbol": "¹⁵⁷Gd",
+          "abundance": 15.65,
+          "stable": true
+        },
+        {
+          "massNumber": 158,
+          "symbol": "¹⁵⁸Gd",
+          "abundance": 24.84,
+          "stable": true
+        },
+        {
+          "massNumber": 160,
+          "symbol": "¹⁶⁰Gd",
+          "abundance": 21.86,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Terbium",
+      "symbol": "Tb",
+      "atomicNumber": 65,
+      "isotopes": [
+        {
+          "massNumber": 159,
+          "symbol": "¹⁵⁹Tb",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Dysprosium",
+      "symbol": "Dy",
+      "atomicNumber": 66,
+      "isotopes": [
+        {
+          "massNumber": 156,
+          "symbol": "¹⁵⁶Dy",
+          "abundance": 0.056,
+          "stable": true
+        },
+        {
+          "massNumber": 158,
+          "symbol": "¹⁵⁸Dy",
+          "abundance": 0.095,
+          "stable": true
+        },
+        {
+          "massNumber": 160,
+          "symbol": "¹⁶⁰Dy",
+          "abundance": 2.329,
+          "stable": true
+        },
+        {
+          "massNumber": 161,
+          "symbol": "¹⁶¹Dy",
+          "abundance": 18.889,
+          "stable": true
+        },
+        {
+          "massNumber": 162,
+          "symbol": "¹⁶²Dy",
+          "abundance": 25.475,
+          "stable": true
+        },
+        {
+          "massNumber": 163,
+          "symbol": "¹⁶³Dy",
+          "abundance": 24.896,
+          "stable": true
+        },
+        {
+          "massNumber": 164,
+          "symbol": "¹⁶⁴Dy",
+          "abundance": 28.260,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Holmium",
+      "symbol": "Ho",
+      "atomicNumber": 67,
+      "isotopes": [
+        {
+          "massNumber": 165,
+          "symbol": "¹⁶⁵Ho",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Erbium",
+      "symbol": "Er",
+      "atomicNumber": 68,
+      "isotopes": [
+        {
+          "massNumber": 162,
+          "symbol": "¹⁶²Er",
+          "abundance": 0.139,
+          "stable": true
+        },
+        {
+          "massNumber": 164,
+          "symbol": "¹⁶⁴Er",
+          "abundance": 1.601,
+          "stable": true
+        },
+        {
+          "massNumber": 166,
+          "symbol": "¹⁶⁶Er",
+          "abundance": 33.503,
+          "stable": true
+        },
+        {
+          "massNumber": 167,
+          "symbol": "¹⁶⁷Er",
+          "abundance": 22.869,
+          "stable": true
+        },
+        {
+          "massNumber": 168,
+          "symbol": "¹⁶⁸Er",
+          "abundance": 26.978,
+          "stable": true
+        },
+        {
+          "massNumber": 170,
+          "symbol": "¹⁷⁰Er",
+          "abundance": 14.910,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Thulium",
+      "symbol": "Tm",
+      "atomicNumber": 69,
+      "isotopes": [
+        {
+          "massNumber": 169,
+          "symbol": "¹⁶⁹Tm",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Ytterbium",
+      "symbol": "Yb",
+      "atomicNumber": 70,
+      "isotopes": [
+        {
+          "massNumber": 168,
+          "symbol": "¹⁶⁸Yb",
+          "abundance": 0.123,
+          "stable": true
+        },
+        {
+          "massNumber": 170,
+          "symbol": "¹⁷⁰Yb",
+          "abundance": 2.982,
+          "stable": true
+        },
+        {
+          "massNumber": 171,
+          "symbol": "¹⁷¹Yb",
+          "abundance": 14.09,
+          "stable": true
+        },
+        {
+          "massNumber": 172,
+          "symbol": "¹⁷²Yb",
+          "abundance": 21.68,
+          "stable": true
+        },
+        {
+          "massNumber": 173,
+          "symbol": "¹⁷³Yb",
+          "abundance": 16.10,
+          "stable": true
+        },
+        {
+          "massNumber": 174,
+          "symbol": "¹⁷⁴Yb",
+          "abundance": 32.03,
+          "stable": true
+        },
+        {
+          "massNumber": 176,
+          "symbol": "¹⁷⁶Yb",
+          "abundance": 12.996,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Lutetium",
+      "symbol": "Lu",
+      "atomicNumber": 71,
+      "isotopes": [
+        {
+          "massNumber": 175,
+          "symbol": "¹⁷⁵Lu",
+          "abundance": 97.41,
+          "stable": true
+        },
+        {
+          "massNumber": 176,
+          "symbol": "¹⁷⁶Lu",
+          "abundance": 2.59,
+          "stable": false,
+          "halfLife": "3.78 × 10^10 years"
+        }
+      ]
+    },
+    {
+      "name": "Hafnium",
+      "symbol": "Hf",
+      "atomicNumber": 72,
+      "isotopes": [
+        {
+          "massNumber": 174,
+          "symbol": "¹⁷⁴Hf",
+          "abundance": 0.16,
+          "stable": true
+        },
+        {
+          "massNumber": 176,
+          "symbol": "¹⁷⁶Hf",
+          "abundance": 5.26,
+          "stable": true
+        },
+        {
+          "massNumber": 177,
+          "symbol": "¹⁷⁷Hf",
+          "abundance": 18.60,
+          "stable": true
+        },
+        {
+          "massNumber": 178,
+          "symbol": "¹⁷⁸Hf",
+          "abundance": 27.28,
+          "stable": true
+        },
+        {
+          "massNumber": 179,
+          "symbol": "¹⁷⁹Hf",
+          "abundance": 13.62,
+          "stable": true
+        },
+        {
+          "massNumber": 180,
+          "symbol": "¹⁸⁰Hf",
+          "abundance": 35.08,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Tantalum",
+      "symbol": "Ta",
+      "atomicNumber": 73,
+      "isotopes": [
+        {
+          "massNumber": 180,
+          "symbol": "¹⁸⁰Ta",
+          "abundance": 0.012,
+          "stable": false,
+          "halfLife": "> 7.1 × 10^15 years"
+        },
+        {
+          "massNumber": 181,
+          "symbol": "¹⁸¹Ta",
+          "abundance": 99.988,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Tungsten",
+      "symbol": "W",
+      "atomicNumber": 74,
+      "isotopes": [
+        {
+          "massNumber": 180,
+          "symbol": "¹⁸⁰W",
+          "abundance": 0.12,
+          "stable": true
+        },
+        {
+          "massNumber": 182,
+          "symbol": "¹⁸²W",
+          "abundance": 26.50,
+          "stable": true
+        },
+        {
+          "massNumber": 183,
+          "symbol": "¹⁸³W",
+          "abundance": 14.31,
+          "stable": true
+        },
+        {
+          "massNumber": 184,
+          "symbol": "¹⁸⁴W",
+          "abundance": 30.64,
+          "stable": true
+        },
+        {
+          "massNumber": 186,
+          "symbol": "¹⁸⁶W",
+          "abundance": 28.43,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Rhenium",
+      "symbol": "Re",
+      "atomicNumber": 75,
+      "isotopes": [
+        {
+          "massNumber": 185,
+          "symbol": "¹⁸⁵Re",
+          "abundance": 37.40,
+          "stable": true
+        },
+        {
+          "massNumber": 187,
+          "symbol": "¹⁸⁷Re",
+          "abundance": 62.60,
+          "stable": false,
+          "halfLife": "4.12 × 10^10 years"
+        }
+      ]
+    },
+    {
+      "name": "Osmium",
+      "symbol": "Os",
+      "atomicNumber": 76,
+      "isotopes": [
+        {
+          "massNumber": 184,
+          "symbol": "¹⁸⁴Os",
+          "abundance": 0.02,
+          "stable": true
+        },
+        {
+          "massNumber": 186,
+          "symbol": "¹⁸⁶Os",
+          "abundance": 1.59,
+          "stable": true
+        },
+        {
+          "massNumber": 187,
+          "symbol": "¹⁸⁷Os",
+          "abundance": 1.96,
+          "stable": true
+        },
+        {
+          "massNumber": 188,
+          "symbol": "¹⁸⁸Os",
+          "abundance": 13.24,
+          "stable": true
+        },
+        {
+          "massNumber": 189,
+          "symbol": "¹⁸⁹Os",
+          "abundance": 16.15,
+          "stable": true
+        },
+        {
+          "massNumber": 190,
+          "symbol": "¹⁹⁰Os",
+          "abundance": 26.26,
+          "stable": true
+        },
+        {
+          "massNumber": 192,
+          "symbol": "¹⁹²Os",
+          "abundance": 40.78,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Iridium",
+      "symbol": "Ir",
+      "atomicNumber": 77,
+      "isotopes": [
+        {
+          "massNumber": 191,
+          "symbol": "¹⁹¹Ir",
+          "abundance": 37.3,
+          "stable": true
+        },
+        {
+          "massNumber": 193,
+          "symbol": "¹⁹³Ir",
+          "abundance": 62.7,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Platinum",
+      "symbol": "Pt",
+      "atomicNumber": 78,
+      "isotopes": [
+        {
+          "massNumber": 190,
+          "symbol": "¹⁹⁰Pt",
+          "abundance": 0.014,
+          "stable": true
+        },
+        {
+          "massNumber": 192,
+          "symbol": "¹⁹²Pt",
+          "abundance": 0.782,
+          "stable": true
+        },
+        {
+          "massNumber": 194,
+          "symbol": "¹⁹⁴Pt",
+          "abundance": 32.967,
+          "stable": true
+        },
+        {
+          "massNumber": 195,
+          "symbol": "¹⁹⁵Pt",
+          "abundance": 33.832,
+          "stable": true
+        },
+        {
+          "massNumber": 196,
+          "symbol": "¹⁹⁶Pt",
+          "abundance": 25.242,
+          "stable": true
+        },
+        {
+          "massNumber": 198,
+          "symbol": "¹⁹⁸Pt",
+          "abundance": 7.163,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Gold",
+      "symbol": "Au",
+      "atomicNumber": 79,
+      "isotopes": [
+        {
+          "massNumber": 197,
+          "symbol": "¹⁹⁷Au",
+          "abundance": 100,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Mercury",
+      "symbol": "Hg",
+      "atomicNumber": 80,
+      "isotopes": [
+        {
+          "massNumber": 196,
+          "symbol": "¹⁹⁶Hg",
+          "abundance": 0.15,
+          "stable": true
+        },
+        {
+          "massNumber": 198,
+          "symbol": "¹⁹⁸Hg",
+          "abundance": 9.97,
+          "stable": true
+        },
+        {
+          "massNumber": 199,
+          "symbol": "¹⁹⁹Hg",
+          "abundance": 16.87,
+          "stable": true
+        },
+        {
+          "massNumber": 200,
+          "symbol": "²⁰⁰Hg",
+          "abundance": 23.10,
+          "stable": true
+        },
+        {
+          "massNumber": 201,
+          "symbol": "²⁰¹Hg",
+          "abundance": 13.18,
+          "stable": true
+        },
+        {
+          "massNumber": 202,
+          "symbol": "²⁰²Hg",
+          "abundance": 29.86,
+          "stable": true
+        },
+        {
+          "massNumber": 204,
+          "symbol": "²⁰⁴Hg",
+          "abundance": 6.87,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Thallium",
+      "symbol": "Tl",
+      "atomicNumber": 81,
+      "isotopes": [
+        {
+          "massNumber": 203,
+          "symbol": "²⁰³Tl",
+          "abundance": 29.52,
+          "stable": true
+        },
+        {
+          "massNumber": 205,
+          "symbol": "²⁰⁵Tl",
+          "abundance": 70.48,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Lead",
+      "symbol": "Pb",
+      "atomicNumber": 82,
+      "isotopes": [
+        {
+          "massNumber": 204,
+          "symbol": "²⁰⁴Pb",
+          "abundance": 1.4,
+          "stable": true
+        },
+        {
+          "massNumber": 206,
+          "symbol": "²⁰⁶Pb",
+          "abundance": 24.1,
+          "stable": true
+        },
+        {
+          "massNumber": 207,
+          "symbol": "²⁰⁷Pb",
+          "abundance": 22.1,
+          "stable": true
+        },
+        {
+          "massNumber": 208,
+          "symbol": "²⁰⁸Pb",
+          "abundance": 52.4,
+          "stable": true
+        }
+      ]
+    },
+    {
+      "name": "Bismuth",
+      "symbol": "Bi",
+      "atomicNumber": 83,
+      "isotopes": [
+        {
+          "massNumber": 209,
+          "symbol": "²⁰⁹Bi",
+          "abundance": 100,
+          "stable": false,
+          "halfLife": "1.9 × 10^19 years"
+        }
+      ]
+    },
+    {
+      "name": "Polonium",
+      "symbol": "Po",
+      "atomicNumber": 84,
+      "isotopes": [
+        {
+          "massNumber": 209,
+          "symbol": "²⁰⁹Po",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "102 years"
+        },
+        {
+          "massNumber": 210,
+          "symbol": "²¹⁰Po",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "138.376 days"
+        }
+      ]
+    },
+    {
+      "name": "Astatine",
+      "symbol": "At",
+      "atomicNumber": 85,
+      "isotopes": [
+        {
+          "massNumber": 210,
+          "symbol": "²¹⁰At",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "8.1 hours"
+        },
+        {
+          "massNumber": 211,
+          "symbol": "²¹¹At",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "7.214 hours"
+        }
+      ]
+    },
+    {
+      "name": "Radon",
+      "symbol": "Rn",
+      "atomicNumber": 86,
+      "isotopes": [
+        {
+          "massNumber": 220,
+          "symbol": "²²⁰Rn",
+          "name": "Thoron",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "55.6 seconds"
+        },
+        {
+          "massNumber": 222,
+          "symbol": "²²²Rn",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "3.8235 days"
+        }
+      ]
+    },
+    {
+      "name": "Francium",
+      "symbol": "Fr",
+      "atomicNumber": 87,
+      "isotopes": [
+        {
+          "massNumber": 223,
+          "symbol": "²²³Fr",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "22 minutes"
+        }
+      ]
+    },
+    {
+      "name": "Radium",
+      "symbol": "Ra",
+      "atomicNumber": 88,
+      "isotopes": [
+        {
+          "massNumber": 224,
+          "symbol": "²²⁴Ra",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "3.6319 days"
+        },
+        {
+          "massNumber": 226,
+          "symbol": "²²⁶Ra",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "1600 years"
+        },
+        {
+          "massNumber": 228,
+          "symbol": "²²⁸Ra",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "5.75 years"
+        }
+      ]
+    },
+    {
+      "name": "Actinium",
+      "symbol": "Ac",
+      "atomicNumber": 89,
+      "isotopes": [
+        {
+          "massNumber": 227,
+          "symbol": "²²⁷Ac",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "21.772 years"
+        }
+      ]
+    },
+    {
+      "name": "Thorium",
+      "symbol": "Th",
+      "atomicNumber": 90,
+      "isotopes": [
+        {
+          "massNumber": 228,
+          "symbol": "²²⁸Th",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "1.9116 years"
+        },
+        {
+          "massNumber": 230,
+          "symbol": "²³⁰Th",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "7.54 × 10^4 years"
+        },
+        {
+          "massNumber": 232,
+          "symbol": "²³²Th",
+          "abundance": 100,
+          "stable": false,
+          "halfLife": "1.405 × 10^10 years"
+        }
+      ]
+    },
+    {
+      "name": "Protactinium",
+      "symbol": "Pa",
+      "atomicNumber": 91,
+      "isotopes": [
+        {
+          "massNumber": 231,
+          "symbol": "²³¹Pa",
+          "abundance": 100,
+          "stable": false,
+          "halfLife": "3.276 × 10^4 years"
+        }
+      ]
+    },
+    {
+      "name": "Uranium",
+      "symbol": "U",
+      "atomicNumber": 92,
+      "isotopes": [
+        {
+          "massNumber": 233,
+          "symbol": "²³³U",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "1.592 × 10^5 years"
+        },
+        {
+          "massNumber": 234,
+          "symbol": "²³⁴U",
+          "abundance": 0.0055,
+          "stable": false,
+          "halfLife": "2.455 × 10^5 years"
+        },
+        {
+          "massNumber": 235,
+          "symbol": "²³⁵U",
+          "abundance": 0.7200,
+          "stable": false,
+          "halfLife": "7.04 × 10^8 years"
+        },
+        {
+          "massNumber": 238,
+          "symbol": "²³⁸U",
+          "abundance": 99.2745,
+          "stable": false,
+          "halfLife": "4.468 × 10^9 years"
+        }
+      ]
+    },
+    {
+      "name": "Neptunium",
+      "symbol": "Np",
+      "atomicNumber": 93,
+      "isotopes": [
+        {
+          "massNumber": 237,
+          "symbol": "²³⁷Np",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "2.144 × 10^6 years"
+        }
+      ]
+    },
+    {
+      "name": "Plutonium",
+      "symbol": "Pu",
+      "atomicNumber": 94,
+      "isotopes": [
+        {
+          "massNumber": 238,
+          "symbol": "²³⁸Pu",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "87.7 years"
+        },
+        {
+          "massNumber": 239,
+          "symbol": "²³⁹Pu",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "2.411 × 10^4 years"
+        },
+        {
+          "massNumber": 240,
+          "symbol": "²⁴⁰Pu",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "6.561 × 10^3 years"
+        },
+        {
+          "massNumber": 241,
+          "symbol": "²⁴¹Pu",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "14.29 years"
+        },
+        {
+          "massNumber": 242,
+          "symbol": "²⁴²Pu",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "3.75 × 10^5 years"
+        },
+        {
+          "massNumber": 244,
+          "symbol": "²⁴⁴Pu",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "8.00 × 10^7 years"
+        }
+      ]
+    },
+    {
+      "name": "Americium",
+      "symbol": "Am",
+      "atomicNumber": 95,
+      "isotopes": [
+        {
+          "massNumber": 241,
+          "symbol": "²⁴¹Am",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "432.2 years"
+        },
+        {
+          "massNumber": 243,
+          "symbol": "²⁴³Am",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "7370 years"
+        }
+      ]
+    },
+    {
+      "name": "Curium",
+      "symbol": "Cm",
+      "atomicNumber": 96,
+      "isotopes": [
+        {
+          "massNumber": 244,
+          "symbol": "²⁴⁴Cm",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "18.10 years"
+        },
+        {
+          "massNumber": 245,
+          "symbol": "²⁴⁵Cm",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "8500 years"
+        },
+        {
+          "massNumber": 246,
+          "symbol": "²⁴⁶Cm",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "4760 years"
+        },
+        {
+          "massNumber": 247,
+          "symbol": "²⁴⁷Cm",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "1.56 × 10^7 years"
+        },
+        {
+          "massNumber": 248,
+          "symbol": "²⁴⁸Cm",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "3.48 × 10^5 years"
+        }
+      ]
+    },
+    {
+      "name": "Berkelium",
+      "symbol": "Bk",
+      "atomicNumber": 97,
+      "isotopes": [
+        {
+          "massNumber": 247,
+          "symbol": "²⁴⁷Bk",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "1380 years"
+        },
+        {
+          "massNumber": 249,
+          "symbol": "²⁴⁹Bk",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "330 days"
+        }
+      ]
+    },
+    {
+      "name": "Californium",
+      "symbol": "Cf",
+      "atomicNumber": 98,
+      "isotopes": [
+        {
+          "massNumber": 249,
+          "symbol": "²⁴⁹Cf",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "351 years"
+        },
+        {
+          "massNumber": 250,
+          "symbol": "²⁵⁰Cf",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "13.08 years"
+        },
+        {
+          "massNumber": 251,
+          "symbol": "²⁵¹Cf",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "898 years"
+        },
+        {
+          "massNumber": 252,
+          "symbol": "²⁵²Cf",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "2.645 years"
+        }
+      ]
+    },
+    {
+      "name": "Einsteinium",
+      "symbol": "Es",
+      "atomicNumber": 99,
+      "isotopes": [
+        {
+          "massNumber": 252,
+          "symbol": "²⁵²Es",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "471.7 days"
+        },
+        {
+          "massNumber": 253,
+          "symbol": "²⁵³Es",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "20.47 days"
+        },
+        {
+          "massNumber": 254,
+          "symbol": "²⁵⁴Es",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "275.7 days"
+        }
+      ]
+    },
+    {
+      "name": "Fermium",
+      "symbol": "Fm",
+      "atomicNumber": 100,
+      "isotopes": [
+        {
+          "massNumber": 253,
+          "symbol": "²⁵³Fm",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "3 days"
+        },
+        {
+          "massNumber": 257,
+          "symbol": "²⁵⁷Fm",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "100.5 days"
+        }
+      ]
+    },
+    {
+      "name": "Mendelevium",
+      "symbol": "Md",
+      "atomicNumber": 101,
+      "isotopes": [
+        {
+          "massNumber": 258,
+          "symbol": "²⁵⁸Md",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "51.5 days"
+        },
+        {
+          "massNumber": 260,
+          "symbol": "²⁶⁰Md",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "31.8 days"
+        }
+      ]
+    },
+    {
+      "name": "Nobelium",
+      "symbol": "No",
+      "atomicNumber": 102,
+      "isotopes": [
+        {
+          "massNumber": 259,
+          "symbol": "²⁵⁹No",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "58 minutes"
+        }
+      ]
+    },
+    {
+      "name": "Lawrencium",
+      "symbol": "Lr",
+      "atomicNumber": 103,
+      "isotopes": [
+        {
+          "massNumber": 262,
+          "symbol": "²⁶²Lr",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "3.6 hours"
+        }
+      ]
+    },
+    {
+      "name": "Rutherfordium",
+      "symbol": "Rf",
+      "atomicNumber": 104,
+      "isotopes": [
+        {
+          "massNumber": 267,
+          "symbol": "²⁶⁷Rf",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "1.3 hours"
+        }
+      ]
+    },
+    {
+      "name": "Dubnium",
+      "symbol": "Db",
+      "atomicNumber": 105,
+      "isotopes": [
+        {
+          "massNumber": 268,
+          "symbol": "²⁶⁸Db",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "16 hours"
+        }
+      ]
+    },
+    {
+      "name": "Seaborgium",
+      "symbol": "Sg",
+      "atomicNumber": 106,
+      "isotopes": [
+        {
+          "massNumber": 271,
+          "symbol": "²⁷¹Sg",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "1.9 minutes"
+        }
+      ]
+    },
+    {
+      "name": "Bohrium",
+      "symbol": "Bh",
+      "atomicNumber": 107,
+      "isotopes": [
+        {
+          "massNumber": 272,
+          "symbol": "²⁷²Bh",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "9.8 seconds"
+        }
+      ]
+    },
+    {
+      "name": "Hassium",
+      "symbol": "Hs",
+      "atomicNumber": 108,
+      "isotopes": [
+        {
+          "massNumber": 269,
+          "symbol": "²⁶⁹Hs",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "9.7 seconds"
+        },
+        {
+          "massNumber": 270,
+          "symbol": "²⁷⁰Hs",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "10 seconds"
+        }
+      ]
+    },
+    {
+      "name": "Meitnerium",
+      "symbol": "Mt",
+      "atomicNumber": 109,
+      "isotopes": [
+        {
+          "massNumber": 278,
+          "symbol": "²⁷⁸Mt",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "7.6 seconds"
+        }
+      ]
+    },
+    {
+      "name": "Darmstadtium",
+      "symbol": "Ds",
+      "atomicNumber": 110,
+      "isotopes": [
+        {
+          "massNumber": 281,
+          "symbol": "²⁸¹Ds",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "11 seconds"
+        }
+      ]
+    },
+    {
+      "name": "Roentgenium",
+      "symbol": "Rg",
+      "atomicNumber": 111,
+      "isotopes": [
+        {
+          "massNumber": 282,
+          "symbol": "²⁸²Rg",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "100 seconds"
+        }
+      ]
+    },
+    {
+      "name": "Copernicium",
+      "symbol": "Cn",
+      "atomicNumber": 112,
+      "isotopes": [
+        {
+          "massNumber": 285,
+          "symbol": "²⁸⁵Cn",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "29 seconds"
+        }
+      ]
+    },
+    {
+      "name": "Nihonium",
+      "symbol": "Nh",
+      "atomicNumber": 113,
+      "isotopes": [
+        {
+          "massNumber": 286,
+          "symbol": "²⁸⁶Nh",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "9.5 seconds"
+        }
+      ]
+    },
+    {
+      "name": "Flerovium",
+      "symbol": "Fl",
+      "atomicNumber": 114,
+      "isotopes": [
+        {
+          "massNumber": 289,
+          "symbol": "²⁸⁹Fl",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "2.6 seconds"
+        }
+      ]
+    },
+    {
+      "name": "Moscovium",
+      "symbol": "Mc",
+      "atomicNumber": 115,
+      "isotopes": [
+        {
+          "massNumber": 290,
+          "symbol": "²⁹⁰Mc",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "0.8 seconds"
+        }
+      ]
+    },
+    {
+      "name": "Livermorium",
+      "symbol": "Lv",
+      "atomicNumber": 116,
+      "isotopes": [
+        {
+          "massNumber": 293,
+          "symbol": "²⁹³Lv",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "61 milliseconds"
+        }
+      ]
+    },
+    {
+      "name": "Tennessine",
+      "symbol": "Ts",
+      "atomicNumber": 117,
+      "isotopes": [
+        {
+          "massNumber": 294,
+          "symbol": "²⁹⁴Ts",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "51 milliseconds"
+        }
+      ]
+    },
+    {
+      "name": "Oganesson",
+      "symbol": "Og",
+      "atomicNumber": 118,
+      "isotopes": [
+        {
+          "massNumber": 294,
+          "symbol": "²⁹⁴Og",
+          "abundance": 0,
+          "stable": false,
+          "halfLife": "0.7 milliseconds"
+        }
+      ]
+    }
+  ]
+}
