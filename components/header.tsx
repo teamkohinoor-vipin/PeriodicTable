@@ -70,20 +70,19 @@ export function Header({ onHomeClick }: HeaderProps) {
           {/* Mobile search icon */}
           {isMobile && <SearchBar inHeader={true} />}
           <ModeToggle />
+          
+          {/* Telegram */}
           <Button variant="ghost" size="icon" asChild>
             <Link
               href="https://t.me/KohinoorOfficial1"
               target="_blank"
               rel="noopener noreferrer"
-              title="View on Telegram"
             >
               <Telegram className="h-5 w-5" />
-              <span className="sr-only">Telegram</span>
             </Link>
           </Button>
         </div>
       </div>
     </header>
   )
-}
-
+            }
