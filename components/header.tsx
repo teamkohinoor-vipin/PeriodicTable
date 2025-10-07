@@ -70,12 +70,19 @@ export function Header({ onHomeClick }: HeaderProps) {
           {/* Mobile search icon */}
           {isMobile && <SearchBar inHeader={true} />}
           <ModeToggle />
-<Button variant="ghost" size="icon" asChild>
-  <Link
-    href="https://t.me/KohinoorOfficial1"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <Telegram className="h-5 w-5" />
-  </Link>
-</Button>
+          <Button variant="ghost" size="icon" asChild>
+            <Link
+              href="https://t.me/KohinoorOfficial1"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="View on GitHub"
+            >
+              <Github className="h-5 w-5" />
+              <span className="sr-only">GitHub</span>
+            </Link>
+          </Button>
+        </div>
+      </div>
+    </header>
+  )
+}
