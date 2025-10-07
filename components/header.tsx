@@ -4,7 +4,7 @@ import type React from "react"
 
 import Link from "next/link"
 import Image from "next/image"
-import { Telegram } from "lucide-react"
+import { Github } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ModeToggle } from "@/components/mode-toggle"
 import { SearchBar } from "@/components/search-bar"
@@ -70,19 +70,19 @@ export function Header({ onHomeClick }: HeaderProps) {
           {/* Mobile search icon */}
           {isMobile && <SearchBar inHeader={true} />}
           <ModeToggle />
-          
-          {/* Telegram */}
           <Button variant="ghost" size="icon" asChild>
             <Link
-              href="https://t.me/KohinoorOfficial1"
+              href="https://github.com/Saganaki22/PeriodicTable"
               target="_blank"
               rel="noopener noreferrer"
+              title="View on GitHub"
             >
-              <Telegram className="h-5 w-5" />
+              <Github className="h-5 w-5" />
+              <span className="sr-only">GitHub</span>
             </Link>
           </Button>
         </div>
       </div>
     </header>
   )
-            }
+}
