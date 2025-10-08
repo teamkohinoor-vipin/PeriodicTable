@@ -75,10 +75,10 @@ export function Header({ onHomeClick }: HeaderProps) {
               href="https://t.me/KohinoorOfficial1"
               target="_blank"
               rel="noopener noreferrer"
-              title="View on GitHub"
+              title="View on Telegram"
             >
-              <Github className="h-5 w-5" />
-              <span className="sr-only">GitHub</span>
+              <Telegram className="h-5 w-5" />
+              <span className="sr-only">Telegram</span>
             </Link>
           </Button>
         </div>
