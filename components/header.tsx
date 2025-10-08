@@ -71,7 +71,7 @@ export function Header({ onHomeClick }: HeaderProps) {
           <ModeToggle />
           <Button variant="ghost" size="icon" asChild>
             <Link
-              href="https://t.me/KohinoorOfficial1"
+              href="https://t.me/VipinXKohinoorBot"
               target="_blank"
               rel="noopener noreferrer"
               title="Join Telegram Channel"
